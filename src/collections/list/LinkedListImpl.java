@@ -1,4 +1,4 @@
-public class LinkedList {
+public class LinkedListImpl {
     class Node {
         int data;
         Node next;
@@ -261,7 +261,7 @@ public class LinkedList {
     }
 
     public static void main(String[] args) {
-        // LinkedList ll = new LinkedList();
+        // LinkedListImpl ll = new LinkedListImpl();
         // ll.addFirst(3);
         // ll.addFirst(2);
         // ll.addFirst(1);
@@ -304,7 +304,7 @@ public class LinkedList {
         // }else System.out.println("The LinkedList is not Palindrome");
 
         //Detect a Loop/Cyle in a LL
-        LinkedList list = new LinkedList();
+        LinkedListImpl list = new LinkedListImpl();
         list.addLast(1);
         list.addLast(2);
         list.addLast(3);
