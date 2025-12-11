@@ -1,7 +1,7 @@
 import java.util.Iterator;
 import java.util.LinkedList;
 
-public class LinkedList2 {
+public class LinkedList_operations {
     public static void main(String[] args) {
         //Create a LinkedList of Integer
         LinkedList<Integer> ll = new LinkedList<>();
