@@ -69,6 +69,9 @@ public class DoublyLL {
         tail.next = null;
         size--;
     }
+    public int getSize() {
+        return size;
+    }
 
     public void print(){
         Node curr = head;
@@ -91,5 +94,6 @@ public class DoublyLL {
         dll.removeLast();
         dll.print();  // 2<->3<->null
 
+        System.out.println("Size: " + dll.getSize()); // Size: 2
     }
 }
